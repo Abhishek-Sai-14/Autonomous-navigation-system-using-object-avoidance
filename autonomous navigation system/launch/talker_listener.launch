@@ -1,0 +1,4 @@
+<launch>
+  <node name="talker_node" pkg="wheeled_robot_arduino" type="talker.py" output="screen"/>
+  <node name="listener_node" pkg="wheeled_robot_arduino" type="listener.py" output="screen"/>
+</launch>
